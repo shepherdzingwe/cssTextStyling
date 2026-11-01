@@ -1,0 +1,64 @@
+/*
+link to go back
+*/
+
+.back a:hover,
+.back a:focus {
+  text-decoration: none;
+  background-color: goldenrod;
+}
+
+.back {
+  background-color: greenyellow;
+  width: fit-content;
+}
+
+/* end of link to go back */
+
+html {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+}
+
+ul,
+ol,
+dl,
+p {
+  font-size: 1.5rem;
+}
+
+li,
+p {
+  line-height: 1.5
+}
+
+dd,
+dt {
+  line-height: 1.5;
+}
+
+dt {
+  font-weight: bold;
+}
+
+ol {
+  list-style-type: upper-roman;
+  list-style-position: inside;
+}
+
+ul {
+  padding-left: 2rem;
+  list-style-type: none;
+}
+
+ul li {
+  padding-left: 2rem;
+  background-image: url("https://mdn.github.io/shared-assets/images/examples/star-shape.png");
+  background-position: 0 0;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;
+}
+
+.decimal-count {
+  list-style-type: decimal;
+}

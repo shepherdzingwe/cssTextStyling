@@ -1,0 +1,53 @@
+/*
+link to go back
+*/
+
+.back a:hover,
+.back a:focus {
+  text-decoration: none;
+  background-color: goldenrod;
+}
+
+.back {
+  background-color: greenyellow;
+  width: fit-content;
+}
+
+/* end of link to go back */
+
+
+body,
+html {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  gap: 0.625%;
+}
+
+nav a {
+  flex: 1;
+  text-decoration: none;
+  outline-color: transparent;
+  text-align: center;
+  line-height: 3;
+  color: black;
+}
+
+nav a:link,
+nav a:visited,
+nav a:focus {
+  background: palegoldenrod;
+  color: black;
+}
+
+nav a:hover {
+  background: orange;
+}
+
+nav a:active {
+  background: darkred;
+  color: white;
+}

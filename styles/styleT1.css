@@ -1,0 +1,48 @@
+/*
+link to go back
+*/
+
+.back a:hover,
+.back a:focus {
+  text-decoration: none;
+  background-color: goldenrod;
+}
+
+.back {
+  background-color: greenyellow;
+  width: fit-content;
+}
+
+/* end of link to go back */
+
+html {
+  font-size: 18px;
+}
+
+p {
+  color: red;
+  font-family: "Helvetica", "Arial" sans-serif;
+  line-height: 1.6
+}
+
+p::first-line {
+  word-spacing: 4px;
+  letter-spacing: 4px;
+
+}
+
+h1 {
+  text-shadow: 4px 2px 1px red;
+  text-decoration: underline;
+  text-transform: capitalize;
+
+}
+
+h1+p {
+  font-weight: bold;
+}
+
+.chemicals {
+  text-decoration: underline;
+  text-underline-position: under;
+}
